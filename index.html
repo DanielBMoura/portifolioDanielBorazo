@@ -22,7 +22,7 @@
                         Daniel B. de Moura
                     </a>
                 </div>
-                <nav>
+                <nav class="nav-header">
                     <ul class="header__links__conteudo">
                         <li><a href="#sobre">Sobre mim</a></li>
                         <li><a href="#portifolio">Portifólio</a></li>
@@ -58,7 +58,7 @@
                         <a href="https://www.linkedin.com/in/daniel-borazo-de-moura-b4a995356/" target="_blank" class="section__principal__icons"><img src="imagens/linkedin.png" alt="Logo linkdln"></a>
                     </div>
                 </div>
-                <img src="imagens/img_desenho.png" alt="Desenho Daniel Borazo de Moura">
+                <img src="imagens/img_desenho.png" alt="Desenho Daniel Borazo de Moura" class="ilustracaoDaniel">
             </section>
         </div>
     </div>
@@ -67,7 +67,7 @@
         <div class="container__responsivo">
             <section class="section__sobre-mim" id="sobre">
                 <img src="imagens/imgDaniel.png" alt="Selfie Daniel Borazo de Moura">
-                <div class="continer__sobre-mim">
+                <div class="conteiner__sobre-mim">
                     <h4>Sobre mim</h4>
 
                     <p><span>👋</span> Olá, meu nome é Daniel Borazo de Moura, tenho 17 anos e sou de São Paulo, SP.</p>
@@ -104,288 +104,293 @@
                             </div>
                         </div>
                     </header>
-                    <div class="container__trabalhos-projetos uiux mostrar">
-                        <article class="card__trabalhos-projetos">
-                            <h6>Campeonato Paulista</h6>
-                            <p>
-                                Projeto Mobile desenvolvido para menção na matéria de programação mobile 2. Sistema simples que mostra uma tela de "home," e uma tela de "campeões", onde na última, mostra uma lista ordenada com os maiores campeões do campeonato paulista, com seus nomes, escudos e quantidade de títulos.
-                            </p>
-                            
-                            <div class="container__links">
-                                <a href="#" class="button__visitar nao-disponivel">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Campeonato-Paulista" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>React-Native</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Qikbyte</h6>
-                            <p>
-                                Interface desenvolvida para estudos de Node.js nas aulas de Programação Web 2. O projeto é uma interface simples, feita usando EJS, e Bootstrap, contendo quatro rotas: "Home", "Sobre", "Cadastro", "Galeria".
-                            </p>
+                    <div class="containerDisplayGrid">
+                        <div class="container__trabalhos-projetos uiux mostrar">
+                            <article class="card__trabalhos-projetos">
+                                <h6>Campeonato Paulista</h6>
+                                <p>
+                                    Projeto Mobile desenvolvido para menção na matéria de programação mobile 2. Sistema simples que mostra uma tela de "home," e uma tela de "campeões", onde na última, mostra uma lista ordenada com os maiores campeões do campeonato paulista, com seus nomes, escudos e quantidade de títulos.
+                                </p>
+                                
+                                <div class="container__links">
+                                    <a href="#" class="button__visitar nao-disponivel">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Campeonato-Paulista" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>React-Native</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Qikbyte</h6>
+                                <p>
+                                    Interface desenvolvida para estudos de Node.js nas aulas de Programação Web 2. O projeto é uma interface simples, feita usando EJS, e Bootstrap, contendo quatro rotas: "Home", "Sobre", "Cadastro", "Galeria".
+                                </p>
 
-                            <div class="container__links">
-                                <a href="#" class="button__visitar nao-disponivel">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/QiKbyte" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>Bootstrap</p>
-                                <p>Node.js</p>
-                                <p>Express</p>
-                                <p>EJS</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Gerador de senha</h6>
-                            <p>
-                                Gerador de senhas aleatórias e seguras desenvolvido em HTML, CSS e JavaScript. Permite criar senhas personalizadas com base no número de caracteres selecionado pelo usuário.
-                            </p>
+                                <div class="container__links">
+                                    <a href="#" class="button__visitar nao-disponivel">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/QiKbyte" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>Bootstrap</p>
+                                    <p>Node.js</p>
+                                    <p>Express</p>
+                                    <p>EJS</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Gerador de senha</h6>
+                                <p>
+                                    Gerador de senhas aleatórias e seguras desenvolvido em HTML, CSS e JavaScript. Permite criar senhas personalizadas com base no número de caracteres selecionado pelo usuário.
+                                </p>
 
-                            <div class="container__links">
-                                <a href="https://danielbmoura.github.io/Gerador-de-Senha/" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Gerador-de-Senha" target="_blank" class="button__github">Github</a>
-                            </div>
-                            <div class="tecnologias">
-                                <p>HTML</p>
-                                <p>CSS</p>
-                                <p>JavaScript</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Folha de pagamento</h6>
-                            <p>
-                                Atividade para menção na matéria de PW2. O objetivo era desenvolver um calculo de folha de pagamento, usando DOM (Document Object Model), onde o usuário digita os seus dados, e o sistema retorna a resposta.
-                            </p>
+                                <div class="container__links">
+                                    <a href="https://danielbmoura.github.io/Gerador-de-Senha/" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Gerador-de-Senha" target="_blank" class="button__github">Github</a>
+                                </div>
+                                <div class="tecnologias">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JavaScript</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Folha de pagamento</h6>
+                                <p>
+                                    Atividade para menção na matéria de PW2. O objetivo era desenvolver um calculo de folha de pagamento, usando DOM (Document Object Model), onde o usuário digita os seus dados, e o sistema retorna a resposta.
+                                </p>
 
-                            <div class="container__links">
-                                <a href="https://danielbmoura.github.io/Folha-de-Pagamento/" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Folha-de-Pagamento" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>HTML</p>
-                                <p>CSS</p>
-                                <p>JavaScript</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Vai de Bus</h6>
-                            <p>
-                                Atividade Diagnóstica realizada para testar os conhecimentos em HTML, e CSS. Desenvolvido com base nas imagens fornecidas pelo professor.
-                            </p>
+                                <div class="container__links">
+                                    <a href="https://danielbmoura.github.io/Folha-de-Pagamento/" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Folha-de-Pagamento" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JavaScript</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Vai de Bus</h6>
+                                <p>
+                                    Atividade Diagnóstica realizada para testar os conhecimentos em HTML, e CSS. Desenvolvido com base nas imagens fornecidas pelo professor.
+                                </p>
 
-                            <div class="container__links">
-                                <a href="https://danielbmoura.github.io/Vai-de-Bus/" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Vai-de-Bus" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>HTML</p>
-                                <p>CSS</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Calculadora</h6>
-                            <p>
-                                Calculadora que me permitiu testar meus conhecimentos sobre interatividade com JavaScript, estilização com CSS e estruturação semântica com HTML.
-                            </p>
+                                <div class="container__links">
+                                    <a href="https://danielbmoura.github.io/Vai-de-Bus/" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Vai-de-Bus" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Calculadora</h6>
+                                <p>
+                                    Calculadora que me permitiu testar meus conhecimentos sobre interatividade com JavaScript, estilização com CSS e estruturação semântica com HTML.
+                                </p>
 
-                            <div class="container__links">
-                                <a href="https://danielbmoura.github.io/Calculadora/" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Calculadora" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>HTML</p>
-                                <p>CSS</p>
-                                <p>Javascript</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Campeonato Brasileiro</h6>
-                            <p>
-                                Atividade realizada para menção na matéria de Programação Web 2. Feita utilizando Node.js, EJS, e Bootstrap
-                            </p>
+                                <div class="container__links">
+                                    <a href="https://danielbmoura.github.io/Calculadora/" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Calculadora" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Campeonato Brasileiro</h6>
+                                <p>
+                                    Atividade realizada para menção na matéria de Programação Web 2. Feita utilizando Node.js, EJS, e Bootstrap
+                                </p>
 
-                            <div class="container__links">
-                                <a href="https://campeonato-brasileiro.onrender.com" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/AtividadePW2" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>Node.js</p>
-                                <p>Bootstrap</p>
-                                <p>EJS</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Fintech-User</h6>
-                            <p>
-                                Landing page de uma Fintech. Nesse projeto foram usados HTML, CSS, e Javascript.
-                            </p>
+                                <div class="container__links">
+                                    <a href="https://campeonato-brasileiro.onrender.com" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/AtividadePW2" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>Node.js</p>
+                                    <p>Bootstrap</p>
+                                    <p>EJS</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Fintech-User</h6>
+                                <p>
+                                    Landing page de uma Fintech. Nesse projeto foram usados HTML, CSS, e Javascript.
+                                </p>
 
-                            <div class="container__links">
-                                <a href="https://fintech-five-liart.vercel.app" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Fintech-User" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>HTML</p>
-                                <p>CSS</p>
-                                <p>Javascript</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Previsão de tempo - API</h6>
-                            <p>
-                                Sistema funcional que mostra dados sobre o tempo em cada região (Temperatura, umidade e velocidade do vento). Nesse sistema foram usados, HTML, CSS, Javascript, e a API do OpenWeatherMap.
-                            </p>
+                                <div class="container__links">
+                                    <a href="https://fintech-five-liart.vercel.app" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Fintech-User" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Previsão de tempo - API</h6>
+                                <p>
+                                    Sistema funcional que mostra dados sobre o tempo em cada região (Temperatura, umidade e velocidade do vento). Nesse sistema foram usados, HTML, CSS, Javascript, e a API do OpenWeatherMap.
+                                </p>
 
-                            <div class="container__links">
-                                <a href="https://previsao-do-tempo-xi-seven.vercel.app" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Previs-o-do-tempo-API" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>HTML</p>
-                                <p>CSS</p>
-                                <p>Javascript</p>
-                                <p>OpenWeatherMap - API</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>PetShop</h6>
-                            <p>
-                                Atividade desenvolvida para aprovação na matéria de Programação Web 3, em que o objetivo era implantar cookies e o google analytic`s para o sistema de petshop, além de usar boas práticas de programação, como por exemplo, usar META TAG`s.
-                            </p>
+                                <div class="container__links">
+                                    <a href="https://previsao-do-tempo-xi-seven.vercel.app" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Previs-o-do-tempo-API" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                    <p>OpenWeatherMap - API</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>PetShop</h6>
+                                <p>
+                                    Atividade desenvolvida para aprovação na matéria de Programação Web 3, em que o objetivo era implantar cookies e o google analytic`s para o sistema de petshop, além de usar boas práticas de programação, como por exemplo, usar META TAG`s.
+                                </p>
 
-                            <div class="container__links">
-                                 <a href="https://pet-shop-roan-seven.vercel.app" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/PetShop" target="_blank" class="button__github">Github</a>
-                            </div>
-                              
-                            <div class="tecnologias">
-                                <p>JavaScript</p>
-                                <p>Cookies</p>
-                                <p>Meta tags</p>
-                                <p>Google analytics</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Fintech-Admin</h6>
-                            <p>
-                                Interface da página administrativa de uma fintech. Nesse projeto foram usados HTML, CSS, e Chart.js.
-                            </p>
+                                <div class="container__links">
+                                    <a href="https://pet-shop-roan-seven.vercel.app" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/PetShop" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>JavaScript</p>
+                                    <p>Cookies</p>
+                                    <p>Meta tags</p>
+                                    <p>Google analytics</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Fintech-Admin</h6>
+                                <p>
+                                    Interface da página administrativa de uma fintech. Nesse projeto foram usados HTML, CSS, e Chart.js.
+                                </p>
 
-                            <div class="container__links">
-                                <a href="https://fintech-admin-six.vercel.app" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Fintech-Admin" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>HTML</p>
-                                <p>CSS</p>
-                                <p>Chart.js</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>SoulTravel</h6>
-                            <p>
-                                Interface responsiva de uma agência de viagens fictícia. Desenvolvido em HTML, CSS e Javascript.
-                            </p>
+                                <div class="container__links">
+                                    <a href="https://fintech-admin-six.vercel.app" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Fintech-Admin" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Chart.js</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>SoulTravel</h6>
+                                <p>
+                                    Interface responsiva de uma agência de viagens fictícia. Desenvolvido em HTML, CSS e Javascript.
+                                </p>
 
-                            <div class="container__links">
-                                <a href="https://agencia-de-viagens-hazel-seven.vercel.app/" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Agencia-de-viagens" target="_blank" class="button__github">Github</a> 
-                            </div>
+                                <div class="container__links">
+                                    <a href="https://agencia-de-viagens-hazel-seven.vercel.app/" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Agencia-de-viagens" target="_blank" class="button__github">Github</a> 
+                                </div>
 
-                            <div class="tecnologias">
-                                <p>HTML</p>
-                                <p>CSS</p>
-                                <p>JavaScript</p>
-                            </div>
-                        </article>
+                                <div class="tecnologias">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>JavaScript</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    
+                    <div class="containerDisplayGrid">
+                        <div class="container__trabalhos-projetos apps">
+                            <article class="card__trabalhos-projetos">
+                                <h6>CRUD Cursos</h6>
+                                <p>
+                                    Projeto desenvolvido para a disciplina de Programação Web 2, implementando um CRUD completo com Node.js, Bootstrap, e PostgreSQL.
+                                </p>
+
+                                <div class="container__links">
+                                    <a href="https://crud-cursos.onrender.com/" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/CrudCursos" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>Node.js</p>
+                                    <p>Bootstrap</p>
+                                    <p>Express</p>
+                                    <p>PostgreSQL</p>
+                                    <p>EJS</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Sistema de login</h6>
+                                <p>
+                                    Sistema simples de cadastro e login de usuários, com as telas de home, cadastro e login. Feito com HTML, CSS, Javascript, Node.js e MySQL em nuvem.
+                                </p>
+
+                                <div class="container__links">
+                                    <a href="https://sistema-de-login-fbfk.onrender.com" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Sistema-de-Login" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Javascript</p>
+                                    <p>Node.js</p>
+                                    <p>MySQL</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Blop-App</h6>
+                                <p>
+                                    Este projeto é um blog onde os usuários podem se cadastrar, fazer login e acessar diversas postagens. Conta com um painel administrativo que permite a gestão completa do conteúdo, incluindo a criação, edição e exclusão de postagens e categorias. O sistema foi desenvolvido utilizando Node.js, MongoDB Atlas, e Bootstrap para a interface.
+                                </p>
+
+                                <div class="container__links">
+                                    <a href="https://blog-app-3u6l.onrender.com" target="_blank" class="button__visitar">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/Blog-App" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>Node.js</p>
+                                    <p>Bootstrap</p>
+                                    <p>MongoDb-Atlas</p>
+                                </div>
+                            </article>
+                            <article class="card__trabalhos-projetos">
+                                <h6>Techbit-mv</h6>
+                                <p>
+                                    Sistema de vitrine de rebites e rebitadeiras, onde os usuários cadastrados podem realizar pedidos, ler blogs, tirar suas dúvidas. Conta com um painel administrativo que permite a gestão de pedidos, produtos, postagens, etc.
+                                </p>
+
+                                <div class="container__links">
+                                    <a href="https://blog-app-3u6l.onrender.com" target="_blank" class="button__visitar nao-disponivel">Visitar</a>
+                                    <a href="https://github.com/DanielBMoura/tcc-techbit-mv" target="_blank" class="button__github">Github</a>
+                                </div>
+                                
+                                <div class="tecnologias">
+                                    <p>EJS</p>
+                                    <p>CSS</p>
+                                    <p>JavaScript</p>
+                                    <p>Node.js</p>
+                                    <p>MySQL</p>
+                                </div>
+                            </article>
+                        </div>
                     </div>
 
-                    <div class="container__trabalhos-projetos apps">
-                        <article class="card__trabalhos-projetos">
-                            <h6>CRUD Cursos</h6>
-                            <p>
-                                Projeto desenvolvido para a disciplina de Programação Web 2, implementando um CRUD completo com Node.js, Bootstrap, e PostgreSQL.
-                            </p>
-
-                            <div class="container__links">
-                                <a href="https://crud-cursos.onrender.com/" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/CrudCursos" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>Node.js</p>
-                                <p>Bootstrap</p>
-                                <p>Express</p>
-                                <p>PostgreSQL</p>
-                                <p>EJS</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Sistema de login</h6>
-                            <p>
-                                Sistema simples de cadastro e login de usuários, com as telas de home, cadastro e login. Feito com HTML, CSS, Javascript, Node.js e MySQL em nuvem.
-                            </p>
-
-                            <div class="container__links">
-                                <a href="https://sistema-de-login-fbfk.onrender.com" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Sistema-de-Login" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>HTML</p>
-                                <p>CSS</p>
-                                <p>Javascript</p>
-                                <p>Node.js</p>
-                                <p>MySQL</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Blop-App</h6>
-                            <p>
-                                Este projeto é um blog onde os usuários podem se cadastrar, fazer login e acessar diversas postagens. Conta com um painel administrativo que permite a gestão completa do conteúdo, incluindo a criação, edição e exclusão de postagens e categorias. O sistema foi desenvolvido utilizando Node.js, MongoDB Atlas, e Bootstrap para a interface.
-                            </p>
-
-                            <div class="container__links">
-                                <a href="https://blog-app-3u6l.onrender.com" target="_blank" class="button__visitar">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/Blog-App" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>Node.js</p>
-                                <p>Bootstrap</p>
-                                <p>MongoDb-Atlas</p>
-                            </div>
-                        </article>
-                        <article class="card__trabalhos-projetos">
-                            <h6>Techbit-mv</h6>
-                            <p>
-                                Sistema de vitrine de rebites e rebitadeiras, onde os usuários cadastrados podem realizar pedidos, ler blogs, tirar suas dúvidas. Conta com um painel administrativo que permite a gestão de pedidos, produtos, postagens, etc.
-                            </p>
-
-                            <div class="container__links">
-                                <a href="https://blog-app-3u6l.onrender.com" target="_blank" class="button__visitar nao-disponivel">Visitar</a>
-                                <a href="https://github.com/DanielBMoura/tcc-techbit-mv" target="_blank" class="button__github">Github</a>
-                            </div>
-                            
-                            <div class="tecnologias">
-                                <p>EJS</p>
-                                <p>CSS</p>
-                                <p>JavaScript</p>
-                                <p>Node.js</p>
-                                <p>MySQL</p>
-                            </div>
-                        </article>
-                    </div>
                     <div class="container__ver-mais">
                         <button class="btn-ver-mais">Ver mais</button>
                     </div>
@@ -418,7 +423,7 @@
             <section class="section__contatos" id="contatos">
                 <div class="container__textos-contatos">
                     <h4>Contatos</h4>
-                    <p>Vamos Conversar!</p>
+                    <h5>Vamos Conversar!</h5>
                 </div>
 
                 <div class="container__formas-contato">
